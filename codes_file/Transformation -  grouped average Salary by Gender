@@ -1,0 +1,16 @@
+```SQL
+
+SELECT Gender,
+ROUND(avg(Salary),2) AS Average_Salary
+FROM salary_data
+LEFT JOIN salary_experience
+ON salary_data.ID = salary_experience.ID
+GROUP BY Gender;
+
+SET SQL_SAFE_UPDATES = 0;
+
+update salary_data
+set Gender = 'Female'
+where Gender = 'Other';
+
+```
