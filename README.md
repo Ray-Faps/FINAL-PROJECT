@@ -1,6 +1,7 @@
 # FINAL-PROJECT
 
 **INTRODUCTION**
+
 In this project, the aim is to perform the ETL process using the below dataset sourced from Kaggle
 [Salary Dataset](https://www.kaggle.com/datasets/mohithsairamreddy/salary-data)
 
