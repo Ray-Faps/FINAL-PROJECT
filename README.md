@@ -1,13 +1,11 @@
 # FINAL-PROJECT
 
 **INTRODUCTION**
-
-In this project, the aim is to perform the ETL process using the below dataset sourced from Kaggle
-[Salary Dataset](https://www.kaggle.com/datasets/mohithsairamreddy/salary-data)
+Data they say is the new gold and how its mined determines the value of insights one can get from it. A properly executed extraction, transformation and loading (ETL) of the data plays a vital role in the ease of getting value from the data.
+In this project, the aim is to perform the ETL process on the salary dataset (fact dataset) and a created dimension data set. The fact dataset can be viewed by clicking on - [Salary Dataset](https://www.kaggle.com/datasets/mohithsairamreddy/salary-data)
 
 **Question**
-
-Is there a discrepancy in the average earnings of males and females?
+The project will be aiming to ascertain based on the data if there is gender discrimination in the average earnings of males and females?
 
 Before importing the dataset into the MySQL database, some transformations were done using Power query on Microsoft Excel.
 
