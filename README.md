@@ -11,17 +11,17 @@ Is there a discrepancy in the average earnings of males and females?
 
 Before importing the dataset into the MySQL database, some transformations were done using Power query on Microsoft Excel.
 
-a) I added 2 new columns (Type of Degree and an Index column) which were merged to form the ID column, which is the common column between both files.
-b) we removed nulls from the dataset to ensure data uniformity
-c) we created a second table by splitting the dataset into a fact and dimension table.
+- I added 2 new columns (Type of Degree and an Index column) which were merged to form the ID column, which is the common column between both files.
+- I removed nulls from the dataset to ensure data uniformity
+- I created a second table by splitting the dataset into a fact and dimension table.
 
 The datasets used for this project are Salary_Data & salary_experience.
 
 3 Github folders were created with details of this project
 
-a) Snapshot -  this folder contains a screenshot of the data before and after the transformation
-b) codes_file - this folder contains the line of codes used for the ETL process
-C) readme - this folder contains details about the entire project
+- Snapshot -  this folder contains a screenshot of the data before and after the transformation
+- codes_file - this folder contains the line of codes used for the ETL process
+- readme - this folder contains details about the entire project
 
 ******************************************************************************************************************************************
 **Data Extraction Stage**
