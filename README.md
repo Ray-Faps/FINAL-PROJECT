@@ -65,7 +65,7 @@ From the data, we gather that males have a higher average salary than females. T
 
 **Reflection**
 
-With my experience in this project, I will first check raw data to identify any discrepancies that could obstruct or affect extraction into the database, because dealing with this type of problem could be time-consuming.
+With my experience in this project, I will first check the raw data to identify any discrepancies that could obstruct or affect extraction into the database, because dealing with this type of problem could be time-consuming.
 
 Manipulating data using SQL was fun, and I found that there could be several ways to make transformations better, for example, using the **round** function to limit the decimal places in the **average** salary to 2.
 
