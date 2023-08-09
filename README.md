@@ -1,22 +1,21 @@
 # FINAL-PROJECT
 
-**INTRODUCTION**
+## INTRODUCTION
 Data they say is the new gold and how its mined determines the value of insights one can get from it. A properly executed extraction, transformation and loading (ETL) of the data plays a vital role in the ease of getting value from the data.
 In this project, the aim is to perform the ETL process on the salary dataset (fact dataset) and a created dimension data set. The fact dataset can be viewed by clicking on - [Salary Dataset](https://www.kaggle.com/datasets/mohithsairamreddy/salary-data)
 
-**Question**
+## Question
 The project will be aiming to ascertain based on the data if there is gender discrimination in the average earnings of males and females.
 
-Before importing the dataset into the MySQL database, some transformations were done using Power query on Microsoft Excel.
-
+Before importing the dataset into the MySQL database, I carried out some transformations on my dimension table using Power query on Microsoft Excel. The process involved the following steps:
 - I added 2 new columns (Type of Degree and an Index column) which were merged to form the ID column, which is the common column between both files.
 - I removed nulls from the dataset to ensure data uniformity
 - I created a second table by splitting the dataset into a fact and dimension table.
 
-The datasets used for this project are Salary_Data & salary_experience.
+The datasets used for this project are Salary_Data(Fact) & salary_experience (Dimension).
 
+## Github Folders
 3 Github folders were created with details of this project
-
 - Snapshot -  this folder contains a screenshot of the data before and after the transformation
 - codes_file - this folder contains the line of codes used for the ETL process
 - readme - this folder contains details about the entire project
