@@ -21,6 +21,7 @@ The datasets used for this project are Salary_Data(Fact) & salary_experience (Di
 - readme - this folder contains details about the entire project
 
 ******************************************************************************************************************************************
+## THE ETL PROCESS
 **Data Extraction Stage**
 
 In the extraction stage, Salary_Data had 6,705 rows, while salary_experience had 6,702 rows. I checked the raw CSV files and noticed that this problem existed in the CSV files as well, however, after deleting the nulls from both files, we achieved a uniformity of 6,698 rows for both files.
