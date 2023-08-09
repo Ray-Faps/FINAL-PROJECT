@@ -58,6 +58,7 @@ Finally, I created a view of the transformation and loaded the view into the dat
 
 I loaded the data into a view because views are important for row-level security. It can be used to control access to data by exposing only specific columns or rows to certain users or roles. This prevents unauthorized access to sensitive information. Views allow you to abstract complex queries and data structures into simpler, more manageable entities, instead of writing and maintaining complex queries every time certain information is needed.
 
+## OUTCOME AND REFLECTION
 **Outcome**
 
 From the data, we gather that males have a higher average salary than females. To gather more insights on this finding, I could check the level of education, age (or age range) and years of experience.
