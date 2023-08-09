@@ -6,6 +6,7 @@ In this project, the aim is to perform the ETL process using the below dataset s
 [Salary Dataset](https://www.kaggle.com/datasets/mohithsairamreddy/salary-data)
 
 **Question**
+
 Is there a discrepancy in the average earnings of males and females?
 
 Before importing the dataset into the MySQL database, some transformations were done using Power query on Microsoft Excel.
@@ -24,10 +25,12 @@ C) readme - this folder contains details about the entire project
 
 ******************************************************************************************************************************************
 **Data Extraction Stage**
+
 In the extraction stage, Salary_Data had 6,705 rows, while salary_experience had 6,702 rows. I checked the raw CSV files and noticed that this problem existed in the CSV files as well, however, after deleting the nulls from both files, we achieved a uniformity of 6,698 rows for both files.
 
 
 **Data Transformation**
+
 In this stage,  I created a table showing the **average** salary by Gender by doing a **left join** with Salary_Data & salary_experience and **grouped by** Gender. 
 
       SELECT Gender,
@@ -52,14 +55,17 @@ Further, I used the **round** function to limit the decimal places in the **aver
 
 
 **Data Loading**
+
 Finally, I created a view of the transformation and loaded the view into the database.
 
 I loaded the data into a view because views are important for row-level security. It can be used to control access to data by exposing only specific columns or rows to certain users or roles. This prevents unauthorized access to sensitive information. Views allow you to abstract complex queries and data structures into simpler, more manageable entities, instead of writing and maintaining complex queries every time certain information is needed.
 
 **Outcome**
+
 From the data, we gather that males have a higher average salary than females. To gather more insights on this finding, I could check the level of education, age (or age range) and years of experience.
 
 **Reflection**
+
 With my experience in this project, I will first check raw data to identify any discrepancies that could obstruct or affect extraction into the database, because dealing with this type of problem could be time-consuming.
 
 Manipulating data using SQL was fun, and I found that there could be several ways to make transformations better, for example, using the **round** function to limit the decimal places in the **average** salary to 2.
