@@ -49,6 +49,7 @@ To correct this, I used an **update** statement to change 'Others' to 'Female'. 
       where Gender = 'Other';
 
 Further, I used the **round** function to limit the decimal places in the **average** salary to 2.
+        
         ROUND(avg(Salary),2) AS Average_Salary
 
 
