@@ -1,4 +1,4 @@
-# FINAL-PROJECT
+# GENDER-WAGE-GAP
 
 ## INTRODUCTION
 Data they say is the new gold and how its mined determines the value of insights one can get from it. A properly executed extraction, transformation and loading (ETL) of the data plays a vital role in the ease of getting value from the data.
